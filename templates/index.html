@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Playgound
+        </title>
+        <link rel="stylesheet" href="#">
+    </head>
+    <body>
+        <h1>
+            Welcome!
+        </h1>
+        <main>
+            {% for i in range(0, {{bNumber}}, 1) %}
+                <div class="Block" style="background-color: {{bColor}}; border: 3px solid black; height: 200px; width: 200px;">
+
+                </div>
+            {% endfor %}
+        </main>
+    </body>
+</html>
